@@ -1,8 +1,25 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
+#include<iostream>
 
+using namespace std;
+
+void printO(int N, int M){
+
+			if (N <= 0 ||M <= 0){
+			
+			cout << "Invalid input";}
+	
+
+	else for  (int i = N;i> 0;i--){
+			for (int j = M;j> 0 ;j--){
+			
+					cout << "O" ;
+			}
+			cout << "\n";
+			}
+		}
 int main(){
 	
 	printO(2,2);
